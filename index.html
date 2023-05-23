@@ -5,14 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" src="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js" defer></script>
 
 </head>
 <body>
-    <h1>HTML Calculator</h1>
-    <input type="text" id="op1" placeholder="Operator 1">
-    <input type="text" id="operator" placeholder="+, -, *, /">
-    <input type="text" id="op2" placeholder="Operator 3">
+    <h1>Calculadora HTML</h1>
+    <form action="" method="dialog">
+        <input type="text" id="op1" placeholder="Operador 1">
+        <input type="text" id="operacion" placeholder="+, -, *, /">
+        <input type="text" id="op2" placeholder="Operador 2">
+        
+        <input type="submit" value="Calcular" id="calcular" >
+    </form>
+
+    <p id="resultado"></p>
 </body>
 </html>
